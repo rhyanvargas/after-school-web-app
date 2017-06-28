@@ -46,15 +46,9 @@ exclude:
   - README.md
   - LICENCE
 
-collections:
-  sets:
-
-
 jekyll-archives:
   enabled: ['categories']
 
 types:
   - Document
   - Video
-
-_comments:
