@@ -7,15 +7,18 @@
 		{% assign name = category[0] %}
 		{% assign posts = category[1] %}
 		<section class="category">
-				<button>
-					Category: <a href="{{ site.url }}/category/{{ name | slugify }}/">{{ name | capitalize | replace: "-", " " }}</a>
-				</button>
+			<button>
+				Category: <a href="{{ site.url }}/category/{{ name | slugify }}/">{{ name | capitalize | replace: "-", " " }}</a>
+			</button>
 		</section>
-	{% endfor %}	
+	{% endfor %}
 </section>
-		<section class="program-cards">
-			{% assign programs = site.posts | sort: "title" %}
-			{% for program in programs %}
-				<li><a href="{{ site.url }}{{ program.url }}">{{ program.title }}</a></li>
-			{% endfor %}
-		</section>
+	{% assign programs = site.posts | sort: "title" %}
+	{% for program in programs %}
+<section class="program-cards">
+	<!--{% if program.featured-image and program.featured-image != "" %}
+	<img class="program-card-thumbnail" src="{{ site.url }}{{ program.featured-image }}"/>
+	{% endif %} NEED TO RESIZE AND STYLE THUMBNAIL A BIT-->
+	<a href="{{ site.url }}{{ program.url }}">{{ program.title }}</a>
+</section>
+	{% endfor %}
