@@ -2,7 +2,7 @@
 date: 2017-01-16
 title: Manual payments
 categories:
-  - billing
+  - athletics
 description: How to pay manually
 type: Document
 ---
