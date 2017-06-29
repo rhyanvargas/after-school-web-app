@@ -7,15 +7,15 @@
 		{% assign name = category[0] %}
 		{% assign posts = category[1] %}
 		<section class="category">
-				<h3>
-					<a href="{{ site.baseurl }}/category/{{ name | slugify }}/">{{ name | replace: "-", " " }}</a>
-				</h3>
-			<ul>
-				{% assign programs = posts | sort: "title" %}
-				{% for program in programs %}
-					<li><a href="{{ site.baseurl }}{{ program.url }}">{{ program.title }}</a></li>
-				{% endfor %}
-			</ul>
+				<button>
+					Category: <a href="{{ site.url }}/category/{{ name | slugify }}/">{{ name | capitalize | replace: "-", " " }}</a>
+				</button>
 		</section>
-	{% endfor %}
+	{% endfor %}	
 </section>
+		<section class="program-cards">
+			{% assign programs = site.posts | sort: "title" %}
+			{% for program in programs %}
+				<li><a href="{{ site.url }}{{ program.url }}">{{ program.title }}</a></li>
+			{% endfor %}
+		</section>
