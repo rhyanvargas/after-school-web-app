@@ -26,7 +26,7 @@ defaults:
     path: "index.html"
   values:
     body_class: "show_hero_search"
-url: https://rhyanvargas.github.io # Update this to production URL at launch
+url: https://rhyanvargas.github.io/after-school-web-app # Update this to production URL at launch
 baseurl:
 email:
 
