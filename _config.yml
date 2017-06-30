@@ -32,7 +32,7 @@ email:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 description: Knowledge base template for Jekyll.
-logo: /siteicon.png
+logo: /uploads/siteicon.png
 
 gems:
   - jekyll-sitemap

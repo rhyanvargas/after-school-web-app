@@ -16,9 +16,10 @@
 	{% assign programs = site.posts | sort: "title" %}
 	{% for program in programs %}
 <section class="program-cards">
-	<!--{% if program.featured-image and program.featured-image != "" %}
+	{% if program.featured-image and program.featured-image != "" %}
 	<img class="program-card-thumbnail" src="{{ site.url }}{{ program.featured-image }}"/>
-	{% endif %} NEED TO RESIZE AND STYLE THUMBNAIL A BIT-->
-	<a href="{{ site.url }}{{ program.url }}">{{ program.title }}</a>
+	{% endif %}
+	<h3><a href="{{ site.url }}{{ program.url }}">{{ program.title }}</a></h3>
+	<p>{{ program.description }}</p>
 </section>
 	{% endfor %}
