@@ -21,6 +21,9 @@ This project and all of its assets are available as open source under the terms 
 4. `git merge gh-pages` : merge the most up-to-date product from `gh-pages` into `{branchName}`
 
 **AFTER MAKING CHANGES**
-1. `git add .` : add all files and changes to staging.
+1. On your branch you made changes to, `git add .` : add all files and changes to staging.
 2. `git commit -m {your-commit-message}` : commit changes.
-3. `git push`: pushes it to gh-pages of `origin` remote repo.
+3. `git push`: pushes it to `{branchName}`
+4. `git checkout gh-pages`
+5. `git merge {branchName}` : merge the most up-to-date product from `{branchName}` into `gh-pages`
+6. `git push`: pushes it to `gh-pages`
