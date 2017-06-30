@@ -17,9 +17,12 @@
 	{% for program in programs %}
 <section class="program-cards">
 	{% if program.featured-image and program.featured-image != "" %}
+	<!-- Pulls in featured-image from each program -->
 	<img class="program-card-thumbnail" src="{{ site.url }}{{ program.featured-image }}"/>
 	{% endif %}
-	<h3><a href="{{ site.url }}{{ program.url }}">{{ program.title }}</a></h3>
-	<p>{{ program.description }}</p>
+	<div class="program-card-description"> <!-- Pulls in title and description from each program -->
+		<h3><a href="{{ site.url }}{{ program.url }}">{{ program.title }}</a></h3>
+		<p>{{ program.description }}</p>
+	</div>
 </section>
 	{% endfor %}

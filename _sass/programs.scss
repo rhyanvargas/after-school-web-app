@@ -1,0 +1,25 @@
+/* Program Card Styles */
+
+section.program-cards {
+  display: flex;
+  margin-bottom: 5rem;
+
+  img.program-card-thumbnail {
+    margin-right: 3rem;
+
+    @media #{$mobile} {
+			max-width: 100px;
+      max-height: 100px;
+		}
+
+    @media #{$tablet} {
+			max-width: 200px;
+      max-height: 200px;
+		}
+
+    @media #{$mid-point} {
+			max-width: 360px;
+      max-height: 360px;
+		}
+  }
+}
