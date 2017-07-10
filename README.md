@@ -1,6 +1,6 @@
 # After School App - Montgomery Co. MD
 
-**URL:** [After School App](https://rhyanvargas.github.io/rvwebsolutions/)
+**URL:** [After School App](https://rhyanvargas.github.io/after-school-web-app/)
 
 **Developed By:** [Rhyan V Web Solutions](https://rhyanvargas.github.io/rvwebsolutions/)
 
