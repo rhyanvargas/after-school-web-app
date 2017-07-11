@@ -3,21 +3,17 @@
 section.program-cards {
   display: flex;
   margin-bottom: 5rem;
+  flex-wrap: wrap;
+
+  @media #{$mid-point} {
+    flex-wrap: nowrap;
+  }
 
   img.program-card-thumbnail {
-    margin-right: 3rem;
-
-    @media #{$mobile} {
-			max-width: 100px;
-      max-height: 100px;
-		}
-
-    @media #{$tablet} {
-			max-width: 200px;
-      max-height: 200px;
-		}
+    margin-bottom: 1rem;
 
     @media #{$mid-point} {
+      margin-right: 3rem;
 			max-width: 360px;
       max-height: 360px;
 		}
