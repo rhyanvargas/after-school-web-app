@@ -22,6 +22,9 @@ defaults:
     featured-image: ''
     permalink: "/:categories/:title"
     description: ''
+    phone-number: ''
+    street-address: ''
+    city-state-zip: ''
 - scope:
     path: "index.html"
   values:
