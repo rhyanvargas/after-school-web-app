@@ -85,6 +85,10 @@ layout: null
 		this.field("title", {boost: 10});
 		this.field("categories");
 		this.field("url");
+		this.field("description");
+		this.field("phone-number");
+		this.field("street-address");
+		this.field("city-state-zip");
 		this.field("content");
 	});
 

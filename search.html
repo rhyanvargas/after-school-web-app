@@ -18,6 +18,10 @@ sitemap: false
 						"title": "{{ post.title | xml_escape }}",
 						"categories": "{{ post.categories | join: ", " | xml_escape }}",
 						"url": " {{ post.url | xml_escape }}",
+						"description": " {{ post.description | xml_escape }}",
+						"phone-number": " {{ post.phone-number | xml_escape }}",
+						"street-address": " {{ post.street-address | xml_escape }}",
+						"city-state-zip": " {{ post.city-state-zip | xml_escape }}",
 						"content": {{ post.content | strip_html | replace_regex: "[\s/\n]+"," " | strip | jsonify }}
 					}
 					{% assign added = true %}
