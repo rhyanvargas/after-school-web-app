@@ -1,0 +1,16 @@
+<section class="program-cards">
+	{% if program.featured-image and program.featured-image != "" %}
+	<!-- Pulls in featured-image from each program -->
+	<img class="program-card-thumbnail" src="{{ site.url }}{{ program.featured-image }}"/>
+	{% endif %}
+	<div class="program-card-description"> <!-- Pulls in title and description from each program -->
+		<h3><a href="{{ site.url }}{{ program.url }}">{{ program.title }}</a></h3>
+		<p>{{ program.description | truncate: 100 }}</p>
+		<ul>
+			<li>{{ program.phone-number }}</li>
+			<li>{{ program.street-address }}<br>
+				{{ program.city-state-zip }}</li>
+		</ul>
+		<a href="{{ program.url }}"><button class="apply-now-btn">Apply Now</button></a>
+	</div>
+</section>
