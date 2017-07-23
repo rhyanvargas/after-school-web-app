@@ -1,6 +1,6 @@
 ---
 date: 2017-05-16
-title: Athletics Program 123
+title: Athletics Program
 categories:
   - athletics
 featured-image: /uploads/siteicon.png  
