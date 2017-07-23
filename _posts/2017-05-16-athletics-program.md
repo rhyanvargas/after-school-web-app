@@ -1,11 +1,12 @@
 ---
-date: 2017-05-16
 title: Athletics Program
+date: 2017-05-16 00:00:00 Z
 categories:
-  - athletics
-featured-image: /uploads/siteicon.png  
-description: Social impact, the social enterprise inspiring then inspire inspire collective impact movements equal opportunity resilient youth.
-phone-number: (123) 456-7890
+- athletics
+featured-image: "/uploads/siteicon.png"
+description: Social impact, the social enterprise inspiring then inspire inspire collective
+  impact movements equal opportunity resilient youth.
+phone-number: "(123) 456-7890"
 street-address: 123 First Street, Suite 100
 city-state-zip: Baltimore, MD 21231
 ---

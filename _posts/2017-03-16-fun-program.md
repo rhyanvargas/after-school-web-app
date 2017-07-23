@@ -1,11 +1,12 @@
 ---
-date: 2017-03-16
 title: Fun Program
+date: 2017-03-16 00:00:00 Z
 categories:
-  - fun
-featured-image: /uploads/siteicon.png  
-description: When society; empower communities; systems thinking collaborative cities do-gooder B-corp circular thought provoking disrupt incubator energize peaceful.
-phone-number: (123) 456-7890
+- fun
+featured-image: "/uploads/siteicon.png"
+description: When society; empower communities; systems thinking collaborative cities
+  do-gooder B-corp circular thought provoking disrupt incubator energize peaceful.
+phone-number: "(123) 456-7890"
 street-address: 123 First Street, Suite 100
 city-state-zip: Baltimore, MD 21231
 ---
