@@ -1,4 +1,15 @@
 <section class="categories">
+	<!-- Add specific program categories to description pages (by checking if page layout is 'post') -->
+	{% if page.layout == 'post' %}
+	{% for category in page.categories %}
+		<section class="category">
+			<button>
+				Category: <a href="{{ site.url }}/category/{{ category | slugify }}/">{{ category | capitalize | replace: "-", " " }}</a>
+			</button>
+		</section>
+	{% endfor %}
+	{% else %}
+	<!-- Add all program categories to homepage -->
 	{% assign categories = site.categories | sort %}
 	{% for category in categories %}
 		{% assign name = category[0] %}
@@ -9,4 +20,5 @@
 			</button>
 		</section>
 	{% endfor %}
+	{% endif %}
 </section>
