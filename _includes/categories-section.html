@@ -3,9 +3,9 @@
 	{% if page.layout == 'post' %}
 	{% for category in page.categories %}
 		<section class="category">
-			<button>
-				Category: <a href="{{ site.url }}/category/{{ category | slugify }}/">{{ category | capitalize | replace: "-", " " }}</a>
-			</button>
+			<a href="{{ site.url }}/category/{{ category | slugify }}/">
+				<button class="category-btn">Category: {{ category | capitalize | replace: "-", " " }}</button>
+			</a>
 		</section>
 	{% endfor %}
 	{% else %}
@@ -15,9 +15,9 @@
 		{% assign name = category[0] %}
 		{% assign posts = category[1] %}
 		<section class="category">
-			<button>
-				Category: <a href="{{ site.url }}/category/{{ name | slugify }}/">{{ name | capitalize | replace: "-", " " }}</a>
-			</button>
+			<a href="{{ site.url }}/category/{{ name | slugify }}/">
+				<button class="category-btn">Category: {{ name | capitalize | replace: "-", " " }}</button>
+			</a>
 		</section>
 	{% endfor %}
 	{% endif %}

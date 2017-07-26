@@ -46,3 +46,26 @@ code, pre, tt {
 	border-radius: 2px;
 	padding: 2px 5px;
 }
+
+/* Category Button Styles */
+
+section.category a {
+	color: #fff;
+}
+
+.category-btn {
+	color: #fff;
+	font-family: sans-serif;
+	font-size: .85em;
+	line-height: 1em;
+	background-color: $header-color;
+	padding: .5em .85em;
+	border-radius: 20px;
+	border: 1px solid $light-grey;
+
+	&:hover {
+		background-color: $light-grey;
+		border: 1px solid $header-color;
+		transition: background-color 0.3s ease
+	}
+}
