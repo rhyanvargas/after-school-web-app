@@ -19,6 +19,7 @@ This project and all of its assets are available as open source under the terms 
 2. `git pull` : update the gh-pages branch to most up to date
 3. `git checkout {branchName}` : switch to your branch. A branch should represent work on a specific feature or page. Any config or core changes can be made from `your-name` branch.
 4. `git merge gh-pages` : merge the most up-to-date product from `gh-pages` into `{branchName}`
+5. `git push`: pushes most updated version to remote `{branchName}`
 
 **AFTER MAKING CHANGES**
 1. On your branch you made changes to, `git add .` : add all files and changes to staging.
