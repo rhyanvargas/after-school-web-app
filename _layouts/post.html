@@ -5,6 +5,7 @@ layout: default
 <section class="tutorial-content">
 	<!-- Hero Header including featured-image(background), title, categories-applied, location and phone# -->
 	<h1>{{ page.title }}</h1>
+	<img class='page__program__featured-images'src="{{ page.featured-image }}" alt="{{ page.title }} image "/>
 	{% include categories-section.html %}
 	<div class="tutorial-main">
 		<p>{{ page.description }}</p>
