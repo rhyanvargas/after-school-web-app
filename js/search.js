@@ -1,5 +1,5 @@
 ---
-layout: 
+layout:
 ---
 
 (function () {
@@ -70,7 +70,7 @@ layout:
 					contentPreview = getPreview(query, item.content, 170),
 					titlePreview = getPreview(query, item.title);
 
-				resultsHTML += "<li><h4><a href='{{ site.baseurl }}" + item.url.trim() + "'>" + titlePreview + "</a></h4><p><small>" + contentPreview + "</small></p></li>";
+				resultsHTML += "<li><h4><a href='{{ site.url }}" + item.url.trim() + "'>" + titlePreview + "</a></h4><p><small>" + contentPreview + "</small></p></li>";
 			});
 
 			searchResultsEl.innerHTML = resultsHTML;
