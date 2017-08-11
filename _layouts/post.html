@@ -10,22 +10,26 @@ layout: default
 	<div class="tutorial-main">
 		<p>{{ page.description }}</p>
 		{{ content }}
-		<h3>Contact Info</h3>
-			<ul class="program-contact-info">
-				{% if page.point-of-contact and page.point-of-contact != "" %}
-				<li>{{ page.point-of-contact }}</li>
-				{% endif %}
-				{% if page.phone-number and page.phone-number != "" %}
-				<li>{{ page.phone-number }} {% if page.phone-ext and page.phone-ext != "" %}ext. {{ page.phone-ext }}{% endif %}</li>
-				{% endif %}
-				{% if page.street-address and page.street-address != "" %}
-				<li>{{ page.street-address }}<br>
-				{% endif %}
-				{% if page.city-state-zip and page.city-state-zip != "" %}
-				{{ page.city-state-zip }}</li>
-				{% endif %}
-			</ul>
-		<a href="https://utilitydefense.formstack.com/forms/afterchool_program_application_form?Program_of_Interest={{ page.title }}"><button class="apply-now-btn">Apply Now</button></a>
+	</div>
+	<div class="contact-main">
+		<div id="contact-info">
+			<h3>Contact Info</h3>
+				<ul class="program-contact-info">
+					{% if page.point-of-contact and page.point-of-contact != "" %}
+					<li>{{ page.point-of-contact }}</li>
+					{% endif %}
+					{% if page.phone-number and page.phone-number != "" %}
+					<li>{{ page.phone-number }} {% if page.phone-ext and page.phone-ext != "" %}ext. {{ page.phone-ext }}{% endif %}</li>
+					{% endif %}
+					{% if page.street-address and page.street-address != "" %}
+					<li>{{ page.street-address }}<br>
+					{% endif %}
+					{% if page.city-state-zip and page.city-state-zip != "" %}
+					{{ page.city-state-zip }}</li>
+					{% endif %}
+				</ul>
+				<a href="https://utilitydefense.formstack.com/forms/afterchool_program_application_form?Program_of_Interest={{ page.title }}"><button class="apply-now-btn">Apply Now</button></a>
+			</div>
 		<div id="google-map">
 			<iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAZSoBh_kH7Bns4NHoFhWLkB-fNsdZzsXc&q={{ page.street-address | replace: ' ', '+' }} {{ page.city-state-zip | replace: ' ', '+' }}" allowfullscreen>
 			</iframe>
