@@ -7,8 +7,10 @@ featured-image: "/uploads/siteicon.png"
 description: Mobilize NGO B-corp human-centered her body her rights changemaker innovate
   inspire emerging empathetic systems thinking but. Targeted efficient support; collective
   impact; state of play relief, empower communities.
+point-of-contact: Zac Heisey
 phone-number: "(123) 456-7890"
-street-address: 123 First Street, Suite 100
+phone-ext: 999
+street-address: 1721 Fleet Street
 city-state-zip: Baltimore, MD 21231
 ---
 

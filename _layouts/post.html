@@ -12,14 +12,17 @@ layout: default
 		{{ content }}
 		<h3>Contact Info</h3>
 			<ul class="program-contact-info">
+				{% if page.point-of-contact and page.point-of-contact != "" %}
+				<li>{{ page.point-of-contact }}</li>
+				{% endif %}
 				{% if page.phone-number and page.phone-number != "" %}
-				<li>{{ page.phone-number }}</li>
+				<li>{{ page.phone-number }} {% if page.phone-ext and page.phone-ext != "" %}ext. {{ page.phone-ext }}{% endif %}</li>
 				{% endif %}
 				{% if page.street-address and page.street-address != "" %}
-				<li>{{ page.street-address }}</li>
+				<li>{{ page.street-address }}<br>
 				{% endif %}
 				{% if page.city-state-zip and page.city-state-zip != "" %}
-				<li>{{ page.city-state-zip }}</li>
+				{{ page.city-state-zip }}</li>
 				{% endif %}
 			</ul>
 		<a href="https://utilitydefense.formstack.com/forms/afterchool_program_application_form?Program_of_Interest={{ page.title }}"><button class="apply-now-btn">Apply Now</button></a>

@@ -7,7 +7,13 @@
 		<h3><a href="{{ site.url }}{{ program.url }}">{{ program.title }}</a></h3>
 		<p>{{ program.description | truncate: 100 }}</p>
 		<ul>
-			<li>{{ program.phone-number }}</li>
+			{% if program.point-of-contact and program.point-of-contact != "" %}
+			<li>Contact: {{ program.point-of-contact }}</li>
+				{% endif %}
+			<li>{{ program.phone-number }}
+				{% if program.phone-ext and program.phone-ext != "" %}
+					ext. {{ program.phone-ext }}</li>
+				{% endif %}
 			<li>{{ program.street-address }}<br>
 				{{ program.city-state-zip }}</li>
 		</ul>
