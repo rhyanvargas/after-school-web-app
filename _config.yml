@@ -32,8 +32,8 @@ defaults:
   values:
     body_class: show_hero_search
 url: https://rhyanvargas.github.io/after-school-web-app
-baseurl:
-email:
+baseurl: 
+email: 
 description: Knowledge base template for Jekyll.
 logo: "/uploads/siteicon.png"
 gems:
