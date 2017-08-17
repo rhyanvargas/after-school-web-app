@@ -1,5 +1,5 @@
 ---
-layout: 
+layout:
 ---
 
 (function () {
@@ -87,7 +87,9 @@ layout:
 		this.field("categories");
 		this.field("url");
 		this.field("description");
+		this.field("point-of-contact");
 		this.field("phone-number");
+		this.field("phone-ext");
 		this.field("street-address");
 		this.field("city-state-zip");
 		this.field("content");
