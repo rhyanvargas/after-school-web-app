@@ -3,7 +3,7 @@ title: Academic Program
 date: 2017-01-16 00:00:00 Z
 categories:
 - academics
-featured-image: "/uploads/siteicon.png"
+featured-image: "/uploads/academics.jpg"
 description: Mobilize NGO B-corp human-centered her body her rights changemaker innovate
   inspire emerging empathetic systems thinking but. Targeted efficient support; collective
   impact; state of play relief, empower communities.

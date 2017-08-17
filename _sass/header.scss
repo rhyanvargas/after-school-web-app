@@ -10,7 +10,9 @@
 
 header {
 	padding: 16px 0 10px 0;
-	background: $header-color;
+	background-image: url('/uploads/books-header.jpg');
+	background-position: left;
+	/* background: $header-color; */
 	color: #fff;
 
 	form {
