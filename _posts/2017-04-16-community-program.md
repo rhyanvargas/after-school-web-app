@@ -3,7 +3,7 @@ title: Community Program
 date: 2017-04-16 00:00:00 Z
 categories:
 - community
-featured-image: "/uploads/siteicon.png"
+featured-image: "/uploads/community.jpg"
 description: Thought leadership entrepreneur disrupt capacity building leverage social
   intrapreneurship.
 phone-number: "(123) 456-7890"

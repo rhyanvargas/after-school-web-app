@@ -3,7 +3,7 @@ title: Fun Program
 date: 2017-03-16 00:00:00 Z
 categories:
 - fun
-featured-image: "/uploads/siteicon.png"
+featured-image: "/uploads/fun.jpg"
 description: When society; empower communities; systems thinking collaborative cities
   do-gooder B-corp circular thought provoking disrupt incubator energize peaceful.
 phone-number: "(123) 456-7890"

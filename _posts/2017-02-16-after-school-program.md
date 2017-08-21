@@ -3,7 +3,7 @@ title: After School Program
 date: 2017-02-16 00:00:00 Z
 categories:
 - after-school
-featured-image: "/uploads/siteicon.png"
+featured-image: "/uploads/afterschool.jpg"
 description: Mobilize NGO B-corp human-centered her body her rights changemaker innovate
   inspire emerging empathetic systems thinking but. Targeted efficient support; collective
   impact; state of play relief, empower communities.

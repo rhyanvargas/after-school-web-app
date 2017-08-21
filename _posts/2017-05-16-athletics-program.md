@@ -3,7 +3,7 @@ title: Athletics Program
 date: 2017-05-16 00:00:00 Z
 categories:
 - athletics
-featured-image: "/uploads/siteicon.png"
+featured-image: "/uploads/athletics.jpg"
 description: Social impact, the social enterprise inspiring then inspire inspire collective
   impact movements equal opportunity resilient youth.
 phone-number: "(123) 456-7890"
