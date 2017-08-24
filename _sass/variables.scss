@@ -1,5 +1,5 @@
 // Breakpoints
-$mobile: "(min-width: 320px)";
+$mobile: "(min-width: 320px)" ;
 $tablet: "(min-width: 450px)";
 $mid-point: "(min-width: 750px)";
 $desktop: "(min-width: 900px)";
@@ -7,9 +7,13 @@ $desktop: "(min-width: 900px)";
 // Colors
 
 $dark-grey: #222;
+$flat-red: #BF3A3C;
+$flat-red-dark: #771A1D;
 $medium-grey: #666;
 $light-grey: #ccc;
-$header-color: #0c92f1;
+$header-color: $flat-red;
+$header-secondary: $flat-red-dark;
+
 
 $link-color: #4A4A4A;
 $link-hover-color: #111;
