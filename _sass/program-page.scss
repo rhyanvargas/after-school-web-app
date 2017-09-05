@@ -2,4 +2,22 @@
 
 .contact-main {
   display: flex;
+  flex-wrap: wrap;
+
+  #contact-info {
+    margin-bottom: 1.5em;
+
+    @media #{$desktop} {
+      margin-right: 1.5em;
+    }
+  }
+
+  /* re-size Google Maps embed when screen is smaller than 650px */
+  @media only screen and (max-width: 650px) {
+    #google-map iframe {
+      max-width: 300px;
+      max-height: 300px;
+    }
+  }
+
 }
