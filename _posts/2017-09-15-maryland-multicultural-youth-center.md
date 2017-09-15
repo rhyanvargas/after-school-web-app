@@ -11,9 +11,11 @@ services-provided:
 is-free: true
 featured-thumbnail: "/uploads/mmyc-logo.png"
 featured-image: "/uploads/mmyc-featured-image.jpg"
-description: Youth Program in Prince Georges County that focuses on activities that enhance academic performance with goal to support attainment of a high school diploma or GED, and prepare youth for post secondary education and success.
+description: Youth Program in Prince Georges County that focuses on activities that
+  enhance academic performance with goal to support attainment of a high school diploma
+  or GED, and prepare youth for post secondary education and success.
 point-of-contact: Alyson Moore, MD Americorps Program Coordinator
-phone-number: "301-779-2851"
+phone-number: 301-779-2851
 phone-ext: 325
 email-address: alyson@layc-dc.org
 street-address: 6200 Sheridan Street
