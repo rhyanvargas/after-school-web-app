@@ -1,5 +1,9 @@
 /* Program Description Page (layout: post) Styles */
 
+.tutorial-content h3 {
+  font-weight: bold;
+}
+
 .contact-main {
   display: flex;
   flex-wrap: wrap;
@@ -8,14 +12,15 @@
     margin-bottom: 1.5em;
 
     @media #{$desktop} {
-      margin-right: 1.5em;
+      margin-right: 2em;
+      max-width: 350px;
     }
   }
 
   /* re-size Google Maps embed when screen is smaller than 650px */
   @media only screen and (max-width: 650px) {
     #google-map iframe {
-      max-width: 300px;
+      max-width: 320px;
       max-height: 300px;
     }
   }

@@ -11,12 +11,28 @@ layout: default
 		<p>{{ page.description }}</p>
 		{{ content }}
 	</div>
+	<div class="details-main">
+		<h3>Program Details</h3>
+			<ul class="program-details-info">
+				{% if page.ages-served and page.ages-served != "" %}
+					<li>Ages Served: {{ page.ages-served }}</li>
+				{% endif %}
+				{% if page.services-provided and page.services-provided != "" %}
+					<li>Services Provided: {{ page.services-provided | join: ', '}}</li>
+				{% endif %}
+				{% if page.is-free %}
+					<li>Are Services Free? Yes</li>
+					{% else %}
+					<li>Are Services Free? No</li>
+				{% endif %}
+			</ul>
+	</div>
 	<div class="contact-main">
 		<div id="contact-info">
 			<h3>Contact Info</h3>
 				<ul class="program-contact-info">
 					{% if page.point-of-contact and page.point-of-contact != "" %}
-					<li>{{ page.point-of-contact }}</li>
+					<li>Contact: {{ page.point-of-contact }}</li>
 					{% endif %}
 					{% if page.phone-number and page.phone-number != "" %}
 					<li>{{ page.phone-number }} {% if page.phone-ext and page.phone-ext != "" %}ext. {{ page.phone-ext }}{% endif %}</li>
@@ -27,11 +43,14 @@ layout: default
 					{% if page.city-state-zip and page.city-state-zip != "" %}
 					{{ page.city-state-zip }}</li>
 					{% endif %}
+					{% if page.website and page.website != "" %}
+					<li>Website: <a href="http://{{ page.website }}">{{ page.website }}</a></li>
+					{% endif %}
 				</ul>
 				<a href="https://securedforms.formstack.com/forms/afterchool_program_application_form?Program_of_Interest={{ page.title }}" ={{ page.title }}"><button class="apply-now-btn">Apply Now</button></a>
 			</div>
 		<div id="google-map">
-			<iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAZSoBh_kH7Bns4NHoFhWLkB-fNsdZzsXc&q={{ page.street-address | replace: ' ', '+' }} {{ page.city-state-zip | replace: ' ', '+' }}" allowfullscreen>
+			<iframe width="500" height="400" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAZSoBh_kH7Bns4NHoFhWLkB-fNsdZzsXc&q={{ page.street-address | replace: ' ', '+' }} {{ page.city-state-zip | replace: ' ', '+' }}" allowfullscreen>
 			</iframe>
 		</div>
 	</div>
