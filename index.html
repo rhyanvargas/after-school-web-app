@@ -2,7 +2,7 @@
 ---
 
 	{% include categories-section.html %}
-	{% assign programs = site.posts | sort: "title" %}
+	{% assign programs = (site.posts | sort: 'date') | reverse %}
 	{% for program in programs %}
 		{% include program-card.html %}
 	{% endfor %}
