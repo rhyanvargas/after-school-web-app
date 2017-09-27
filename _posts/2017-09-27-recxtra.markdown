@@ -2,10 +2,7 @@
 title: RecXtra
 date: 2017-09-27 20:48:00 Z
 categories:
-- academics
 - athletics
-- fun
-- community
 ages-served: Middle School Studens
 services-provided: Sports, Arts, Baby-Sitting Instruction, Chess, Improv Theatre,
   Sewing, Step Dance, Tennis, Weight Training, and Poms
