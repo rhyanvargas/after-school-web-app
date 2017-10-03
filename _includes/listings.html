@@ -6,7 +6,7 @@
 				<article>
 					<div>
 						<h3>{% if include.numbered %}{{ forloop.index }}. {% endif %}{{ item.title }}</h3>
-						<p class="description">{{ item.description }}</p>
+						<p class="description">{{ item.description | truncate: 165 }}</p>
 					</div>
 				</article>
 			</a>
