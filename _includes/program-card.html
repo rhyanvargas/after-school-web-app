@@ -14,8 +14,10 @@
 				{% if program.phone-ext and program.phone-ext != "" %}
 					ext. {{ program.phone-ext }}</li>
 				{% endif %}
-			<li>{{ program.street-address }}<br>
-				{{ program.city-state-zip }}</li>
+				{% if program.street-address and program.street-address != "" %}
+			<li>{{ program.street-address }}{% endif %}<br>
+				{% if program.city-state-zip and program.city-state-zip != "" %}
+				{{ program.city-state-zip }}{% endif %}</li>
 		</ul>
 		<a href="{{ site.url }}{{ program.url }}"><button class="apply-now-btn">More Info</button></a>
 	</div>
