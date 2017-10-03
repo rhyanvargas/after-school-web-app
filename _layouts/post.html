@@ -49,10 +49,12 @@ layout: default
 				</ul>
 				<a href="https://securedforms.formstack.com/forms/afterchool_program_application_form?Program_of_Interest={{ page.title }}" ={{ page.title }}"><button class="apply-now-btn">Apply Now</button></a>
 			</div>
+		{% if page.street-address and page.street-address != "" %}
 		<div id="google-map">
 			<iframe width="500" height="400" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAZSoBh_kH7Bns4NHoFhWLkB-fNsdZzsXc&q={{ page.street-address | replace: ' ', '+' }} {{ page.city-state-zip | replace: ' ', '+' }}" allowfullscreen>
 			</iframe>
 		</div>
+		{% endif %}
 	</div>
 </section>
 
