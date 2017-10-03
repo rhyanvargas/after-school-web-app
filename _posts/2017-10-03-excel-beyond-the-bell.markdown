@@ -11,10 +11,12 @@ services-provided:
 is-free: true
 featured-thumbnail: "/uploads/ebb-logo.png"
 featured-image: "/uploads/ebb-featured-image.jpg"
-description: High quality out of school time programs providing positive impacts on youth development. Excel Beyond the Bell Partners With 7 Middle Schools to offer afterschool academic helps, nutritional meals, and bus transportation home.
-point-of-contact:
+description: High quality out of school time programs providing positive impacts on
+  youth development. Excel Beyond the Bell Partners With 7 Middle Schools to offer
+  afterschool academic helps, nutritional meals, and bus transportation home.
+point-of-contact: 
 phone-number: 240-777-8080
-phone-ext:
+phone-ext: 
 email-address: info@excelbeyondthebell.org
 street-address: 1801 Research Blvd. Suite 103
 city-state-zip: Rockville, MD 20850

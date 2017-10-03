@@ -14,11 +14,14 @@ services-provided:
 is-free: true
 featured-thumbnail: "/uploads/community-bridges-logo.jpg"
 featured-image: "/uploads/community-bridges-featured-image.jpg"
-description: Community Bridges empowers girls from diverse backgrounds to become exceptional students, positive leaders, and healthy young women. The program focuses include social emotional development, social justice issues, bullying, team building, and identity formation, among other things.
+description: Community Bridges empowers girls from diverse backgrounds to become exceptional
+  students, positive leaders, and healthy young women. The program focuses include
+  social emotional development, social justice issues, bullying, team building, and
+  identity formation, among other things.
 point-of-contact: Marri Hope
 phone-number: 301-585-7155
 phone-ext: 106
-email-address:
+email-address: 
 street-address: '8757 Georgia Ave. #540'
 city-state-zip: Silver Spring, MD 20910
 website: communitybridges-md.org

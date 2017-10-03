@@ -22,11 +22,11 @@ description: 'RecXtra gives students the opportunity to learn skills that are no
   and more.'
 point-of-contact: Carlos Falcon
 phone-number: 240-777-4937
-phone-ext:
-email-address:
-street-address:
-city-state-zip:
-website:
+phone-ext: 
+email-address: 
+street-address: 
+city-state-zip: 
+website: 
 ---
 
 **How to Apply**
