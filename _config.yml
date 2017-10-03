@@ -24,7 +24,7 @@ defaults:
     is-free: ''
     featured-thumbnail: ''
     featured-image: ''
-    permalink: "/:categories/:title"
+    permalink: "/:title"
     description: ''
     point-of-contact: ''
     phone-number: ''
@@ -40,7 +40,7 @@ defaults:
 url: https://www.afterschoolmaryland.com
 baseurl:
 email:
-description: Welcome to Afterschool Maryland! Here you'll find afterschool programs in Montgomery County & throughout Maryland. Art, academics, athletics, community & more. 
+description: Welcome to Afterschool Maryland! Here you'll find afterschool programs in Montgomery County & throughout Maryland. Art, academics, athletics, community & more.
 logo:
 gems:
 - jekyll-sitemap
