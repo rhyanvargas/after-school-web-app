@@ -2,16 +2,31 @@
 title: RecXtra
 date: 2017-09-27 20:48:00 Z
 categories:
+- academics
 - athletics
-ages-served: Middle School Studens
-services-provided: Sports, Arts, Baby-Sitting Instruction, Chess, Improv Theatre,
-  Sewing, Step Dance, Tennis, Weight Training, and Poms
+- community
+ages-served: Middle School Students
+services-provided:
+- Athletics
+- Art
+- Baby Sitting Instruction
+- Chess
+- Improv Theatre
+- Sewing
+- Step Dance
 is-free: true
+featured-thumbnail: "/uploads/recxtra-logo.jpg"
+featured-image: "/uploads/recxtra-featured-image.png"
 description: 'RecXtra gives students the opportunity to learn skills that are not
-  covered during the school day including: improv theatere, shop class, tennis, chess,
+  covered during the school day including: improv theatre, shop class, tennis, chess,
   and more.'
 point-of-contact: Carlos Falcon
 phone-number: 240-777-4937
+phone-ext:
+email-address:
+street-address:
+city-state-zip:
+website:
 ---
 
 **How to Apply**
