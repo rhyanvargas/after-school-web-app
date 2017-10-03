@@ -1,5 +1,5 @@
 ---
-title: Base
+title: Afterschool Maryland
 timezone: UTC
 collections:
   posts:
@@ -38,10 +38,10 @@ defaults:
   values:
     body_class: show_hero_search
 url: https://www.afterschoolmaryland.com
-baseurl: 
-email: 
-description: Knowledge base template for Jekyll.
-logo: "/uploads/siteicon.png"
+baseurl:
+email:
+description: Welcome to Afterschool Maryland! Here you'll find afterschool programs in Montgomery County & throughout Maryland. Art, academics, athletics, community & more. 
+logo:
 gems:
 - jekyll-sitemap
 - jekyll-seo-tag
