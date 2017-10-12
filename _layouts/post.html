@@ -3,9 +3,14 @@ layout: default
 ---
 
 <section class="tutorial-content">
-	<!-- Hero Header including featured-image(background), title, categories-applied, location and phone# -->
 	<h1>{{ page.title }}</h1>
-	<img class='page__program__featured-images'src="{{ site.url }}{{ page.featured-image }}" alt="{{ page.title }} image "/>
+	{% if program.featured-image == "" %}
+	<!-- If no featured-image is listed, include placeholder -->
+	<img class="program-card-thumbnail" src="{{ site.url }}/uploads/placeholder-featured-image.jpg" alt="{{ page.title }} image"/>
+	{% else %}
+	<!-- Else pull in featured-image from each program -->
+	<img class="program-card-featured" src="{{ site.url }}{{ page.featured-image }}" alt="{{ page.title }} image"/>
+	{% endif %}
 	{% include categories-section.html %}
 	<div class="tutorial-main">
 		<p>{{ page.description }}</p>
