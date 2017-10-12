@@ -38,12 +38,10 @@ defaults:
   values:
     body_class: show_hero_search
 url: https://www.afterschoolmaryland.com
-baseurl: 
-email: 
-description: Welcome to Afterschool Maryland! Here you'll find afterschool programs
-  in Montgomery County & throughout Maryland. Art, academics, athletics, community
-  & more.
-logo: 
+baseurl:
+email:
+description: Afterschool Maryland is an online database of afterschool programs in Montgomery County & throughout Maryland. Search for youth programs and apply online.
+logo:
 gems:
 - jekyll-sitemap
 - jekyll-seo-tag
