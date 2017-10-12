@@ -1,9 +1,10 @@
 ---
 navitem:
 - name: Home
-  link: "/"  
+  link: "/"
 - name: About
   link: "/about"
 - name: Contact
   link: "/contact"
 ---
+

@@ -10,12 +10,14 @@ services-provided:
 - Reading instruction
 - Participation in pool activities, sports, chess club, and more
 is-free: true
-featured-thumbnail:
-featured-image:
-description: Lunch and Learn is a food and summer enrichment program for school-aged children who qualify for free and reduced meals programs in Montgomery County public schools, and consequently cannot afford summer camp programs.
+featured-thumbnail: 
+featured-image: 
+description: Lunch and Learn is a food and summer enrichment program for school-aged
+  children who qualify for free and reduced meals programs in Montgomery County public
+  schools, and consequently cannot afford summer camp programs.
 point-of-contact: Bruce Baker, Program Director
-phone-number: (301) 589-3633
-phone-ext:
+phone-number: "(301) 589-3633"
+phone-ext: 
 email-address: 
 street-address: 8545 Piney Branch Road, Suite B
 city-state-zip: Takoma Park, MD 20912
