@@ -12,7 +12,7 @@ services-provided:
 - Bullying prevention
 - Team building
 is-free: true
-featured-thumbnail: "/uploads/community-bridges-logo.jpg"
+featured-thumbnail-image: "/uploads/community-bridges-logo.jpg"
 featured-image: "/uploads/community-bridges-featured-image.jpg"
 description: Community Bridges empowers girls from diverse backgrounds to become exceptional
   students, positive leaders, and healthy young women. The program focuses include

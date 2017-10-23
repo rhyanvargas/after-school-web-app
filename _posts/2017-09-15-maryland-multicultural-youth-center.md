@@ -9,7 +9,7 @@ services-provided:
 - Academic help with Americorps Mentors
 - Workforce preparation services
 is-free: true
-featured-thumbnail: "/uploads/mmyc-logo.png"
+featured-thumbnail-image: "/uploads/mmyc-logo.png"
 featured-image: "/uploads/mmyc-featured-image.jpg"
 description: Youth Program in Prince Georges County that focuses on activities that
   enhance academic performance with goal to support attainment of a high school diploma

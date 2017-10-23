@@ -9,7 +9,7 @@ services-provided:
 - Family counseling
 - Homeless outreach
 is-free: false
-featured-thumbnail: "/uploads/everymind-logo.png"
+featured-thumbnail-image: "/uploads/everymind-logo.png"
 featured-image: "/uploads/everymind-featured-image.jpg"
 description: Every Mind helps identify and address the needs of at risk children and
   their families, and then provide more intensive case management and counseling when

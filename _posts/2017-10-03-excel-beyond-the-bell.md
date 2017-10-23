@@ -9,7 +9,7 @@ services-provided:
 - Nutritional meals
 - Transportation
 is-free: true
-featured-thumbnail: "/uploads/ebb-logo.png"
+featured-thumbnail-image: "/uploads/ebb-logo.png"
 featured-image: "/uploads/ebb-featured-image.jpg"
 description: High quality out of school time programs providing positive impacts on
   youth development. Excel Beyond the Bell Partners With 7 Middle Schools to offer

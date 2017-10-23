@@ -6,7 +6,7 @@ layout: default
 	<h1>{{ page.title }}</h1>
 	{% if page.featured-image == "" %}
 	<!-- If no featured-image is listed, include placeholder -->
-	<img class="program-card-thumbnail" src="{{ site.url }}/uploads/placeholder-featured-image.jpg" alt="{{ page.title }} image"/>
+	<img class="program-card-featured" src="{{ site.url }}/uploads/placeholder-featured-image.jpg" alt="{{ page.title }} image"/>
 	{% else %}
 	<!-- Else pull in featured-image from each program -->
 	<img class="program-card-featured" src="{{ site.url }}{{ page.featured-image }}" alt="{{ page.title }} image"/>

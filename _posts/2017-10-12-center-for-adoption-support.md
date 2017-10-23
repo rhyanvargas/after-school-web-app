@@ -9,7 +9,7 @@ services-provided:
 - Individual counseling
 - Therapy provided by adoption clinical specialist
 is-free: false
-featured-thumbnail: 
+featured-thumbnail-image: 
 featured-image: 
 description: Adoption experts are provided for children. CASE provides adopted children
   with the opportunity to meet other adopted children of similar ages. Groups are

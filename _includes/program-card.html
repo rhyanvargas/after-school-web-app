@@ -1,10 +1,10 @@
 <section class="program-cards">
-	{% if program.featured-thumbnail == "" %} 
+	{% if program.featured-thumbnail-image == "" %}
 	<!-- If no featured-thumbnail is listed, include placeholder -->
 	<img class="program-card-thumbnail" src="{{ site.url }}/uploads/placeholder-featured-thumbnail.jpg"/>
 	{% else %}
 	<!-- Else pull in featured-thumbnail from each program -->
-	<img class="program-card-thumbnail" src="{{ site.url }}{{ program.featured-thumbnail }}"/>
+	<img class="program-card-thumbnail" src="{{ site.url }}{{ program.featured-thumbnail-image }}"/>
 	{% endif %}
 	<div class="program-card-description"> <!-- Pulls in title and description from each program -->
 		<h3><a href="{{ site.url }}{{ program.url }}">{{ program.title }}</a></h3>
