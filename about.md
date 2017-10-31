@@ -1,7 +1,8 @@
 ---
 title: About Us
 layout: default
-description: Learn more about Afterschool Maryland, and online database of afterschool and youth programs in Montgomery County & throughout Maryland.
+description: Learn more about Afterschool Maryland, and online database of afterschool
+  and youth programs in Montgomery County & throughout Maryland.
 ---
 
 Write some stuff here about Afterschool Maryland...State of play thought provoking rubric social impact, catalyze catalyze academic agile effective altruism. B-corp, inspirational, social enterprise, emerging, efficient collaborative cities, resist technology dynamic strategy.
