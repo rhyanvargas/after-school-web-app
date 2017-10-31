@@ -5,6 +5,5 @@ navitem:
 - name: About
   link: "/about"
 - name: Contact
-  link: "/contact"
+  link: "#"
 ---
-
