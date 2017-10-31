@@ -38,11 +38,12 @@ defaults:
   values:
     body_class: show_hero_search
 url: https://www.afterschoolmaryland.com
-baseurl: 
-email: 
+baseurl:
+email:
+google_analytics_key: UA-109019871-1  
 description: Afterschool Maryland is an online database of afterschool programs in
   Montgomery County & throughout Maryland. Search for youth programs and apply online.
-logo: 
+logo:
 gems:
 - jekyll-sitemap
 - jekyll-seo-tag
