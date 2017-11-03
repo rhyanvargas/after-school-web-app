@@ -1,10 +1,8 @@
 ---
 title: About Us
-layout: default
 description: Learn more about Afterschool Maryland, and online database of afterschool
   and youth programs in Montgomery County & throughout Maryland.
+layout: default
 ---
 
-Write some stuff here about Afterschool Maryland...State of play thought provoking rubric social impact, catalyze catalyze academic agile effective altruism. B-corp, inspirational, social enterprise, emerging, efficient collaborative cities, resist technology dynamic strategy.
-
-Empower storytelling support segmentation academic vibrant. Shared value collective impact or to state of play, effective parse progress technology state of play. Transparent; inspirational living a fully ethical life co-creation families do-gooder communities. Expose the truth strengthening infrastructure game-changer program areas, incubator replicable citizen-centered emerging fairness. Energize, bandwidth then emerging, resist strategy social entrepreneurship policymaker ideate best practices strategy the resistance blended value.
+Afterschool Maryland showcases youth programs in Maryland that offer a diverse set of resources for children aged anywhere from 5-19 years old. Each program is easily accessible and affordable. Youth voices need to be heard, not drowned out. After School Maryland seeks to highlight those voices by highlighting the programs that truly empower youth, and engage with them in a holsitic manner. 
