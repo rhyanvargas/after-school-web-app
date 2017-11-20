@@ -3,7 +3,7 @@ title: Find Afterschool & Youth Programs in Maryland
 ---
 
 	{% include categories-section.html %}
-	{% assign programs = (site.posts | sort: 'date') | reverse %}
+	{% assign programs = site.posts | sort: 'date' | reverse %}
 	{% for program in programs %}
 		{% include program-card.html %}
 	{% endfor %}
