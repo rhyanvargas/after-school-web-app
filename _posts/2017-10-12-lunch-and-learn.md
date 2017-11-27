@@ -11,7 +11,6 @@ services-provided:
 - Participation in pool activities, sports, chess club, and more
 is-free: true
 featured-image: "/uploads/Lunchandlearn0003-1-360546.jpg"
-featured-thumbnail-image: "/uploads/downloadfile.jpg"
 description: Lunch and Learn is a food and summer enrichment program for school-aged
   children who qualify for free and reduced meals programs in Montgomery County public
   schools, and consequently cannot afford summer camp programs.
