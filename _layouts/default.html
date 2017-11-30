@@ -33,11 +33,14 @@
 		<header>
 			<div class="wrapper">
 				<section class="top-bar">
-					<div class="logo"><a href="{{ site.url }}"><img src="{{ site.url }}/_uploads/logo-white.png" alt="After School Logo" srcset=""></a></div>
 					{% include navigation.html %}
 				</section>
 				<section class="hero_search">
-					<h1>Afterschool Helps</h1>
+					<div class="logo">
+						<a href="{{ site.url }}">
+							<img src="{{ site.url }}/uploads/logo-white.png" alt="After School Logo" srcset="">
+						</a>
+					</div>
 					<p>Search for a program or select from the program categories listed below.</p>
 					{% include search.html %}
 				</section>
