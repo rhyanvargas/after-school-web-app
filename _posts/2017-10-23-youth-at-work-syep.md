@@ -21,3 +21,10 @@ city-state-zip: Largo, MD 20774
 website: www1.pgcps.org/print.aspx?id=219984
 ---
 
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-8767417113831055",
+    enable_page_level_ads: true
+  });
+</script>
